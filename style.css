@@ -5,28 +5,42 @@
     margin: 0;
     padding: 0;
     font-family: "Oxygen", sans-serif;
-    border: 1px red solid;
+    /*border: 1px red solid;*/
     color: black;
-    text-align: center;
     text-decoration: none;
     list-style: none;
 }
 
-.navbar {
-    background-color: #333;
+body {
+    
+    position: relative;
 }
 
-.navbar .logo {
-    float: left;
+main {
+
+padding-top: 100px;
+
+}
+
+
+.navbar {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar .logo img {
-    height: 70px;
-    padding: 10px;
+    margin-left: 60px;
+    height: 60px;
+    padding: 10px 0;
 }
 
 .navbar .links {
-    float: right;
+    margin-right: 60px;
+    justify-content: center;
 }
 
 .navbar .links li {
@@ -35,12 +49,14 @@
 
 .navbar .links li a {
     display: block;
-    color:blue;
-    padding: 10px 20px;
+    color:whitesmoke ;
+    font-weight: bold;
+    padding: 0 20px;
+    font-size: 20px;
 }
 
 .navbar .links li a:hover {
-    color: aqua;
+    color: orange;
 }
 
 .dropdown {
@@ -49,17 +65,17 @@
 
 .dropdown-content {
     display: none;
-    position:absolute;
-    background-color: #333;
-    min-width: 160px;
+    position: absolute;
+    background-color: #555;
+    padding: 20px 0;
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: blue;
-    padding: 10px 20px;
     display: block;
-    text-align: left;
+    padding: 5px;
+    margin: 10px;
+    white-space: nowrap;
 }
 
 .dropdown:hover .dropdown-content {
@@ -67,8 +83,43 @@
 }
 
 
+.carre_gris{
 
+    background-color:#5a5a5a;
+    margin: 75px 501px;
+    text-align: center;
+    padding: 15px;
+}
 
+.carre_gris h1{
+    color: orange;
+    margin-bottom: 30px;
+    font-size: 61px; 
 
+}
+.carre_gris h1 a{
+
+    color: orange;
+}
+.carre_gris p {
+
+    margin: 0 40px;
+    font-size: 20px;
+
+}
+
+.logo_aftec,.logo_entreprise {
+
+    padding: 0px 25px;
+    height: 100px;
+}
+
+.logos {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
 
 
