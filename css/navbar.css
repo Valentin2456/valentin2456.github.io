@@ -1,0 +1,146 @@
+/* Import GoogleFonts: Montserrat, Oxygen, Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@600&family=Oxygen:wght@400;700&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;		Liens
+font-family: 'Oxygen', sans-serif;			Texte
+font-family: 'Oswald', sans-serif;			Titre
+*/
+
+/*POUR MOBILE*/
+
+nav {
+	background-color: #1c1b1c;			/* Couleur de l'arriere plan. */
+	width: 100%;					/* Pour que l'element prenne toute la largeur de la page */
+	border-bottom: 3px solid orange;
+}
+
+.nav-list {
+	display: none;						/* De base, le menu est fermé. Donc on ne l'affiche pas. (ouvertue en JS)*/
+	float: right;						/* L'element n'as plus de hitbox, et se met sur la droite */
+	background-color: #1c1b1c;
+	border: 3px solid orange;
+}
+
+.nav-item {
+	color: white;
+	border-left: 3px white solid;
+	margin: 1.5em 1em 1.5em 1.5em;			/* 1em == 1 * taille de police (ici 18px, donc 1.5em = 1.5*18px) */
+	padding: 0 0.5em;
+}
+
+.nav-link, .nav-dropdown-button{
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+}
+
+.nav-dropdown-button img {
+	height: 1.3em;
+	transform: translate(0.3em, 0.4em);
+	/* Ajout de filtres pour changer la couleur de l'image (white)*/
+	/* Generation du filtre: https://webvista.co.in/tools/css_filter/ */
+	filter: invert(100%) sepia(20%) saturate(0%) hue-rotate(78deg) brightness(105%) contrast(101%);
+}
+
+.nav-link:hover {
+	color: orange;
+}
+
+.nav-dropdown-button:hover {
+	color: orange;
+}
+
+.nav-dropdown-button:hover img{
+	/* Ajout de filtres pour changer la couleur de l'image (orange)*/
+	/* Generation du filtre: https://webvista.co.in/tools/css_filter/ */
+	filter: invert(69%) sepia(12%) saturate(7308%) hue-rotate(359deg) brightness(102%) contrast(104%);
+}
+
+.nav-dropdown-content {
+	margin: 0.6em;
+	display: none;
+}
+
+.nav-dropdown-link {
+	font-size: 0.8em;
+	border-left: 2px white solid;
+	padding-left: 0.5em;
+	margin: 0.4em 0em;
+}
+
+.nav-dropdown-link:hover {
+	color: orange;
+}
+
+.val-logo img {
+	height: 67px;
+	margin: 0.6em;
+}
+
+.nav-menu img {
+	height: 67px;
+	filter: invert(100%) sepia(20%) saturate(0%) hue-rotate(78deg) brightness(105%) contrast(101%);  /* white */
+	margin: 0.6em;
+}
+
+.nav-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-menu:hover img {  /* AU SURVOL DE LA SOURIS*/
+	cursor: pointer;    /* Change le curseur de la souris */
+	filter: invert(69%) sepia(12%) saturate(7308%) hue-rotate(359deg) brightness(102%) contrast(104%); /* orange */
+}
+
+/*POUR TABLETTE*/
+@media (min-width: 768px) {		/* Ce css ecrasera le css precedent si la page fait au moins 768px de large */
+
+}
+
+
+/*POUR PC*/
+@media (min-width: 1200px) {
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.nav-menu {
+		display: none;
+	}
+
+	.nav-list {
+		float: none;
+		border: none;
+		display: grid;
+	}
+
+	.nav-list ul {
+		display: flex;
+	}
+
+	.nav-item {
+		border-left: none;
+		margin-top: 2em	;
+	}
+
+	.nav-dropdown-button img{
+		height: 1em;
+		transform: translate(0.3em, 0.3em);
+	}
+
+	.nav-dropdown-content {
+		position: absolute;
+		background-color: #1c1b1c;
+		padding: 0em 2em 1em 2em;
+		margin-top: 1.2em;
+		border: 3px solid orange;
+		border-top: none;
+		transform: translate(-0.6em, 0em);
+	}
+	
+	.nav-dropdown-link {
+		margin-top: 1em;
+	}
+}

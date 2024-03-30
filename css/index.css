@@ -1,0 +1,138 @@
+/* Import GoogleFonts: Montserrat, Oxygen, Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@600&family=Oxygen:wght@400;700&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;		Liens
+font-family: 'Oxygen', sans-serif;			Texte
+font-family: 'Oswald', sans-serif;			Titre
+*/
+
+
+* {		/* Cible tout les elements - "Reset" */   
+	margin: 0;								/* Enleve tout les margin de base. 'margin': marge exterieure de l'element */
+	padding: 0;								/* Enleve tout les padding de base. 'padding': marge interieure de l'element */
+	font-family: "Oxygen", sans-serif;		/* Change la police en 'Oxygen'. 'sans-serif' si Oxygen pas dispo */
+	/*border: 1px red solid;*/				/* Ajoute une bordure rouge de 1px (debugging)*/
+	font-weight: normal;					/* Retire le 'gras' mis de base sur certains textes */
+	text-decoration: none;				/* Enleve les decoration de textes (soulignement..) */
+	list-style: none;						/* Enleve les decoraton de listes */
+	font-size: 18px;						/* Taille du texte: 18px */
+}
+
+a {
+	color: white;		/* Pour que les liens n'apparaissent plus en bleu/violet */
+}
+
+/*////////////////*/
+/*//// MOBILE ////*/	/* Ce css sera pris en compte de base */
+/*////////////////*/	/* On commence toujours par le css du plus petit ecran, puis on agrandi */
+
+body {
+	background-color: #EDEADE;			/* Couleur de l'arriere plan.  https://htmlcolorcodes.com/colors/shades-of-white/ */
+	min-height: 100%;					/* Hauteur minimale: toute la hauteur de la page */
+}
+
+main {
+
+padding-top: 100px;
+
+}
+
+
+.navbar {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo img {
+    margin-left: 60px;
+    height: 60px;
+    padding: 10px 0;
+}
+
+.navbar .links {
+    margin-right: 60px;
+    justify-content: center;
+}
+
+.navbar .links li {
+    float: left;
+}
+
+.navbar .links li a {
+    display: block;
+    color:whitesmoke ;
+    font-weight: bold;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.navbar .links li a:hover {
+    color: orange;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+
+.carre_gris{
+    background-color:#5a5a5a;
+    margin: 75px 501px;
+    text-align: center;
+    padding: 15px;
+}
+
+.carre_gris h1{
+    color: orange;
+    margin-bottom: 30px;
+    font-size: 61px; 
+
+}
+
+.carre_gris h1 a{
+    font-size: 61px; 
+    color: orange;
+}
+
+.carre_gris p {
+    margin: 0 40px;
+    font-size: 20px;
+
+}
+
+.logo_aftec,.logo_entreprise {
+    padding: 0px 25px;
+    height: 100px;
+}
+
+.logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
