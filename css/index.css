@@ -3,7 +3,9 @@
 /*
 font-family: 'Montserrat', sans-serif;		Liens
 font-family: 'Oxygen', sans-serif;			Texte
-font-family: 'Oswald', sans-serif;			Titre
+font-family: 'Oswald', sans-serif;			titre
+Green: #81B29A
+Grey #252627
 */
 
 
@@ -19,7 +21,7 @@ font-family: 'Oswald', sans-serif;			Titre
 }
 
 a {
-	color: white;		/* Pour que les liens n'apparaissent plus en bleu/violet */
+	color: #252627;		/* Pour que les liens n'apparaissent plus en bleu/violet */
 }
 
 /*////////////////*/
@@ -27,112 +29,46 @@ a {
 /*////////////////*/	/* On commence toujours par le css du plus petit ecran, puis on agrandi */
 
 body {
-	background-color: #EDEADE;			/* Couleur de l'arriere plan.  https://htmlcolorcodes.com/colors/shades-of-white/ */
+	background-color: whitesmoke;			/* Couleur de l'arriere plan.  https://htmlcolorcodes.com/colors/shades-of-white/ */
 	min-height: 100%;					/* Hauteur minimale: toute la hauteur de la page */
 }
 
 main {
-
-padding-top: 100px;
-
+    padding: 0;
 }
 
+.title_container{
+    background-image: url("/resources/cablage.jpg");
+    background-position: center;
+    background-size:cover;
 
-.navbar {
-    background-color: #333;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
-
-.navbar .logo img {
-    margin-left: 60px;
-    height: 60px;
-    padding: 10px 0;
-}
-
-.navbar .links {
-    margin-right: 60px;
-    justify-content: center;
-}
-
-.navbar .links li {
-    float: left;
-}
-
-.navbar .links li a {
-    display: block;
-    color:whitesmoke ;
+.title{
+    color: ghostwhite;
+    font-size: 5em;
     font-weight: bold;
-    padding: 0 20px;
-    font-size: 20px;
-}
-
-.navbar .links li a:hover {
-    color: orange;
-}
-
-.dropdown {
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #555;
-    padding: 20px 0;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    display: block;
-    padding: 5px;
-    margin: 10px;
-    white-space: nowrap;
-}
-
-.dropdown:hover .dropdown-content {
-    display:block;
-}
-
-
-.carre_gris{
-    background-color:#5a5a5a;
-    margin: 75px 501px;
     text-align: center;
-    padding: 15px;
+    padding: 1.85em;
+    
 }
 
-.carre_gris h1{
-    color: orange;
-    margin-bottom: 30px;
-    font-size: 61px; 
-
+.title a {
+    color: ghostwhite;
+    font-size: 1em;
+    font-weight: bold;
 }
 
-.carre_gris h1 a{
-    font-size: 61px; 
-    color: orange;
-}
-
-.carre_gris p {
-    margin: 0 40px;
-    font-size: 20px;
-
-}
 
 .logo_aftec,.logo_entreprise {
     padding: 0px 25px;
     height: 100px;
+
 }
 
 .logos {
     width: 100%;
     display: flex;
     justify-content: center;
-    
 }
 
 
