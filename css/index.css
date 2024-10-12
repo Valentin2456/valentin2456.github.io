@@ -71,4 +71,42 @@ main {
     justify-content: center;
 }
 
+.article_container{
+    background-color: rgb(229, 228, 226);
+    margin: 0 15%;
+    padding: 1em 2em;
+    color: #252627;
+}
+
+.cvlink{
+    display: flex;
+}
+
+.cvlink:hover {
+    background-color: rgb(227, 213, 187);
+    cursor: pointer;
+}
+
+.article{
+    display: flex;
+    margin: 2.5em;
+}
+
+.article img{
+    height: 10em;
+    width: 12em;
+}
+
+.article h3{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-size: 1.4em;
+}
+.article span{
+    font-weight: bold;
+    font-size: 0.75em;
+}
+.article div{
+    margin: auto 0 auto 2em;
+}
 
