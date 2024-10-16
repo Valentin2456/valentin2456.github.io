@@ -7,6 +7,8 @@
 	<!-- NAVBAR -->
 	<link rel="stylesheet" href="./css/navbar.css">
 	<script src="js/navbar.js" defer></script>
+	<script src="js/eastereggs.js" defer></script>
+	<script src="js/contact.js" defer></script>
 	<!-- PAGE -->
 	<link rel="stylesheet" href="./css/index.css">
 	<title>PorteFolio Valentin</title>
@@ -15,12 +17,7 @@
 <body>
 	<nav class="navbar">
 		<div class="nav-buttons">
-			<a class="val-logo" href="./index.html">
-				<img src="./resources/pngegg.png" alt="C'est le logo">
-			</a>
-			<div class="nav-menu" onclick="ToggleNavMenu()">
-				<img src="resources/hamburger_menu.svg" alt="Bouton menu">
-			</div>
+			<img class="val-logo" src="./resources/ah.png" alt="C'est le logo" onclick="fescht()">
 		</div>
 
 		<div class="nav-list">
@@ -34,6 +31,7 @@
 					<div class="nav-dropdown-content">
 						<a class="nav-dropdown-link" href="">Gestion de projet</a>
 						<a class="nav-dropdown-link" href="">Nom compétences</a>
+
 						<!--Rajouter des <a> en fonction de mes compétences-->
 					</div>
 				</li>
@@ -43,7 +41,8 @@
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="#">Commandes utiles</a>
+					<a class="nav-link" href="#" id="contact">Contactez-Moi</a>
+
 				</li>
 			</ul>
 		</div>
@@ -74,7 +73,7 @@
 				<p>Grâce à mon Bac Pro SN (Systèmes Numériques), 
 					j'ai eu l'opportunité de réaliser plusieurs stages dans différentes entreprises du secteur informatique.
 					Ces expériences m'ont permis de découvrir divers aspects du métier,
-					renforçant mon intérêt pour le domaine. Cela m'a conduit à poursuivre en BTS SIO en alternace, 
+					renforçant mon intérêt pour le domaine.</p> Cela m'a conduit à poursuivre en BTS SIO en alternace, 
 					où je me spécialise principalement dans le helpdesk, apportant un soutien technique et
 					des solutions aux utilisateurs.</p>
 			</div>
@@ -86,7 +85,7 @@
 				<h3>Projet Professionnel</h3>
 				<p>Au départ, j'avais des doutes sur la suite à donner à mon parcours après le BTS SIO.
 					Cependant, après plusieurs discussions avec mon entreprise, j'ai clarifié mes objectifs.
-					Si une opportunité d'embauche se présente à l'issue de mon BTS,
+					<br> Si une opportunité d'embauche se présente à l'issue de mon BTS,
 					je serai prêt à accepter l'offre et à poursuivre ma carrière dans ce cadre.</p>
 			</div>
 		</div>
@@ -98,9 +97,7 @@
 				<p>Le BTS SIO SISR (Solution d'Infrastructure Système et Réseau), 
 					est une option du BTS SIO qui a pour but de former des techniciens réseau polyvalents.
 					Les lauréats de ce programme ont toutes les compétences nécessaires pour la gestion et la 
-					maintenance du réseau d'une entreprise.
-				
-				
+					maintenance du réseau d'une entreprise.<br><br>
 					Le BTS SIO SLAM (Solutions Logicielles et Applications Métiers) 
 					vous prépare à la mise en place de solutions informatiques au sein 
 					des entreprises, en vue de gérer efficacement un parc informatique complet.
@@ -109,14 +106,22 @@
 				</p>
 			</div>
 		</div>
-
 	</div>
 
-	<!--<div class="logos">
+	<div class="logos">
 		<img class="logo_aftec" src="./resources/log aftec.png"alt="logo aftec">
 		<img class="logo_entreprise" src="./resources/logo enterprise.png" alt="Logo Entreprise">
-	</div>-->
+		<p onclick="putain()" id="axel">AH PUTAIN</p>
+
+	
+	</div>
+
+
+
+
+
 </main> 
+
 
 
 

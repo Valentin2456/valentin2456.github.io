@@ -17,6 +17,8 @@ nav {
     align-items: center;
 	justify-content: space-between;
     position: sticky;top:0 ;
+	box-shadow: 0 10px 10px -10px #81B29A;
+
 }
 
 
@@ -78,7 +80,7 @@ nav {
 	color: #81B29A;
 }
 
-.val-logo img {
+.val-logo {
 	height: 67px;
 	margin: 0.6em;
 }

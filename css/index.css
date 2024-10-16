@@ -33,6 +33,7 @@ body {
 	min-height: 100%;					/* Hauteur minimale: toute la hauteur de la page */
 }
 
+
 main {
     padding: 0;
 }
@@ -108,5 +109,12 @@ main {
 }
 .article div{
     margin: auto 0 auto 2em;
+    
 }
+#axel{
+    color: whitesmoke;
+    cursor: no-drop;
+    position:absolute;
+    right: 42px;
 
+}
