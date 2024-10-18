@@ -30,6 +30,7 @@ a {
 /*////////////////*/	/* On commence toujours par le css du plus petit ecran, puis on agrandi */
 
 body {
+    cursor:url(../resources/sabre32.png), pointer;
 	background-color: whitesmoke;			/* Couleur de l'arriere plan.  https://htmlcolorcodes.com/colors/shades-of-white/ */
 	min-height: 100%;					/* Hauteur minimale: toute la hauteur de la page */
 }
@@ -114,7 +115,7 @@ main {
 }
 #axel{
     color: whitesmoke;
-    cursor: no-drop;
+    cursor:zoom-in;
     position:absolute;
     right: 42px;
 

@@ -1,3 +1,4 @@
-#curry{
-    
+/* Applique le changement de curseur pour toute la page */
+body :hover {
+    cursor: url(../resources/sabrelaserjaune.png), auto !important /* Change le curseur en forme de main */
 }
