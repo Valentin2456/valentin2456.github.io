@@ -83,6 +83,7 @@ nav {
 .val-logo {
 	height: 67px;
 	margin: 0.6em;
+	cursor:pointer;
 }
 
 .nav-menu img {

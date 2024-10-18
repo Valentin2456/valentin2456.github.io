@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- NAVBAR -->
+	<link rel="stylesheet" href="./css/navbar.css">
+	<script src="js/navbar.js" defer></script>
+	<!-- PAGE -->
+	<link rel="stylesheet" href="./css/index.css">
+	<title>Site Valentin</title>
+</head>
+
+<body>
+	<nav>
+		<div class="nav-buttons">
+			<a class="val-logo" href="./index.html">
+				<img src="./resources/ah.png" alt="C'est le logo">
+			</a>
+			<div class="nav-menu" onclick="ToggleNavMenu()">
+				<img src="resources/hamburger_menu.svg" alt="Bouton menu">
+			</div>
+		</div>
+
+		
+		<div class="nav-list">
+			<ul>
+
+				<li class="nav-item">
+					<a class="nav-link" href="./veille_technologique.html">Veille technologique</a>
+				</li>
+
+				<li class="nav-item" >
+					<div class="nav-dropdown-button" onclick="ToggleNavDropdownMenu()">Preuve Compétences<img src="resources/downArrow.svg" alt="Bouton menu deroulant"></div>
+					<div class="nav-dropdown-content">
+						<a class="nav-dropdown-link" href="">Gestion de projet</a>
+						<a class="nav-dropdown-link" href="">Nom compétences</a>
+						<!--Rajouter des <a> en fonction de mes compétences-->
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#">Curriculum Vitae</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#">Commandes utiles</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+    <p id='curry'>Voici mon CV</p>
+
+
+
+
+
+</body>
+</html>
