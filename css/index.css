@@ -18,6 +18,7 @@ Grey #252627
 	text-decoration: none;				/* Enleve les decoration de textes (soulignement..) */
 	list-style: none;						/* Enleve les decoraton de listes */
 	font-size: 18px;						/* Taille du texte: 18px */
+
 }
 
 a {
