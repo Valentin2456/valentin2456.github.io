@@ -1,0 +1,30 @@
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
+}
+
+.tabsynth {
+    display: inline-block;
+    margin-top: 3em;
+    border: 3px solid #81B29A;
+    background-color: #81B29A;
+    border-radius: 12px;
+    padding: 15px 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(129, 178, 154, 0.5);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.tabsynth:hover {
+    background-color: #6a9b83;
+    border-color: #6a9b83;
+    box-shadow: 0 8px 25px rgba(129, 178, 154, 0.7);
+    transform: scale(1.05);
+}

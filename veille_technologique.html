@@ -7,26 +7,23 @@
 	<!-- NAVBAR -->
 	<link rel="stylesheet" href="./css/navbar.css">
 	<script src="js/navbar.js" defer></script>
+	<script src="js/contact.js" defer></script>
 	<!-- PAGE -->
 	<link rel="stylesheet" href="./css/index.css">
-	<title>Site Valentin</title>
+	<link rel="stylesheet" href="./css/veille_technologique.css">
+	<title>Veille Technologique - Réalité Virtuelle dans la Médecine</title>
 </head>
 
 <body>
-	<nav>
+	<nav class="navbar">
 		<div class="nav-buttons">
-			<a class="val-logo" href="./index.html">
-				<img src="./resources/ah.png" alt="C'est le logo">
+			<a href="./index.html">
+				<img class="val-logo" src="./resources/ah.png" alt="C'est le logo">
 			</a>
-			<div class="nav-menu" onclick="ToggleNavMenu()">
-				<img src="resources/hamburger_menu.svg" alt="Bouton menu">
-			</div>
 		</div>
 
-		
 		<div class="nav-list">
 			<ul>
-
 				<li class="nav-item">
 					<a class="nav-link" href="./veille_technologique.html">Veille technologique</a>
 				</li>
@@ -34,76 +31,45 @@
 				<li class="nav-item" >
 					<div class="nav-dropdown-button" onclick="ToggleNavDropdownMenu()">Épreuve E5<img src="resources/downArrow.svg" alt="Bouton menu deroulant"></div>
 					<div class="nav-dropdown-content">
-						<a class="nav-dropdown-link" href="./E4.html">Présentation Epreuve</a>
-						<a class="nav-dropdown-link" href="">Excel Compétence</a>
-						<a class="nav-dropdown-link" href="">Powerpoint Epreuve</a>
+						<a class="nav-dropdown-link" href="./e5.html">Présentation Epreuve</a>
+						<a class="nav-dropdown-link" href="/excel5.html">Excel Compétences</a>
+						<a class="nav-dropdown-link" href="">PowerPoint Épreuve</a>
 						<!--Rajouter des <a> en fonction de mes compétences-->
 					</div>
 				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="./E5.HTML">Epreuve E6</a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="#">Projets</a>
-				</li>
+				<li class="nav-item"><a class="nav-link" href="./e6.HTML">Épreuve E6</a></li>
+				<li class="nav-item"><a class="nav-link" href="#" id="contact">Contactez-Moi</a></li>
 			</ul>
 		</div>
 	</nav>
-<body>
-	<!DOCTYPE html>
-	<html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Veille Technologique - Réalité Virtuelle dans la Médecine</title>
-		<style>
-			body {
-				font-family: Arial, sans-serif;
-				background-color: #f4f4f4;
-				margin: 0;
-				padding: 20px;
-			}
-			.container {
-				background-color: #fff;
-				padding: 20px;
-				border-radius: 10px;
-				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-				max-width: 800px;
-				margin: auto;
-			}
-			h1 {
-				color: #3498db;
-				text-align: center;
-			}
-			p {
-				line-height: 1.6;
-				margin-bottom: 15px;
-			}
-			.highlight {
-				font-weight: bold;
-			}
-		</style>
-	</head>
-	<body>
-	
-		<div class="container">
-			<h1>Veille Technologique : Réalité Virtuelle dans le Monde de la Médecine</h1><br> 
-	
-			<p>La <span class="highlight">veille technologique</span> est un processus d'observation et de recherche continue qui permet de suivre les dernières avancées et innovations dans un domaine spécifique. Son objectif est de recueillir des informations pertinentes pour anticiper les évolutions technologiques, repérer des opportunités, et se tenir informé des nouvelles pratiques ou outils qui pourraient avoir un impact sur le secteur professionnel. Ce processus est essentiel dans les domaines en constante évolution comme l'informatique, la santé, ou encore l'industrie.</p>
-	
-			<p>Dans le cadre de ma veille technologique, j'ai choisi de suivre l'évolution de la <span class="highlight">réalité virtuelle (RV) dans le domaine de la médecine</span>. Ce sujet est particulièrement intéressant car la réalité virtuelle transforme déjà de nombreux aspects du secteur médical, notamment en matière de formation, de traitement des patients, et de recherche scientifique.</p>
-	
-			<p>La réalité virtuelle offre des solutions innovantes pour améliorer l’apprentissage des futurs professionnels de la santé en leur permettant de s'exercer sur des cas cliniques simulés dans un environnement sécurisé et interactif. Elle est également utilisée pour traiter des patients souffrant de phobies, de stress post-traumatique, ou même pour la gestion de la douleur lors des interventions chirurgicales.</p>
-	
-			<p>En plus, la réalité virtuelle ouvre des perspectives nouvelles pour la rééducation des patients grâce à des exercices immersifs et stimulants, rendant ainsi le processus de guérison plus engageant et efficace. Des projets de recherche intègrent également cette technologie pour l'analyse et la simulation d’opérations chirurgicales complexes.</p>
-	
-			<p>Suivre l'évolution de cette technologie dans la médecine permet de mieux comprendre ses applications actuelles et futures, et de rester à l’avant-garde des changements qui influenceront la manière dont les soins de santé seront dispensés dans les années à venir.</p>
-		</div>
 
-<h2>Voici des moyens pour S'informer sur un sujet en particulier</h2>
 
-<h3>A Présent des articles qui mon sembler Pertinant </h3>
+	<div class="container">
+		<h1>Veille Technologique : Réalité Virtuelle dans le Monde de la Médecine</h1><br> 
+	
+		<p>La <span class="highlight">veille technologique</span> est un processus d'observation et de recherche continue qui permet de suivre les dernières avancées et innovations dans un domaine spécifique. Son objectif est de recueillir des informations pertinentes pour anticiper les évolutions technologiques, repérer des opportunités, et se tenir informé des nouvelles pratiques ou outils qui pourraient avoir un impact sur le secteur professionnel. Ce processus est essentiel dans les domaines en constante évolution comme l'informatique, la santé, ou encore l'industrie. <br><br>
+		Dans le cadre de ma veille technologique, j'ai choisi de suivre l'évolution de la <span class="highlight">réalité virtuelle dans le domaine de la médecine</span>. Ce sujet est particulièrement intéressant car la réalité virtuelle transforme déjà de nombreux aspects du secteur médical, notamment en matière de formation, de traitement des patients, et de recherche scientifique. <br><br>
+		La réalité virtuelle offre des solutions innovantes pour améliorer l’apprentissage des futurs professionnels de la santé en leur permettant de s'exercer sur des cas cliniques simulés dans un environnement sécurisé et interactif. Elle est également utilisée pour traiter des patients souffrant de phobies, de stress post-traumatique, ou même pour la gestion de la douleur lors des interventions chirurgicales.</p>
+		
+		<img class="text_img" src="/resources/vrmedecine.jpg" alt="casquevr">
+		
+		<p>En plus, la réalité virtuelle ouvre des perspectives nouvelles pour la rééducation des patients grâce à des exercices immersifs et stimulants, rendant ainsi le processus de guérison plus engageant et efficace. Des projets de recherche intègrent également cette technologie pour l'analyse et la simulation d’opérations chirurgicales complexes. <br><br>
+		Suivre l'évolution de cette technologie dans la médecine permet de mieux comprendre ses applications actuelles et futures, et de rester à l’avant-garde des changements qui influenceront la manière dont les soins de santé seront dispensés dans les années à venir. <br><br>
+		Pour me renseigner sur le sujet je consulte plusieurs site qui parle de la VR dans le monde de la médecine. <br><br>
+		Voici quelques sites qui parle du sujet ou j'ai mis des googles alertes: <br><br>
+
+		<a href="https://hability.fr/levolution-de-la-vr-dans-le-secteur-medical/"> - hability.fr</a><br>
+		<a href="https://reality.fr/blog/sante-medecine-realite-virtuelle/"> - reality.fr</a><br>
+		<a href="https://www.c2.care/fr/"> - c2.care</a><br>
+
+		<br>J'ai également activer les notifications sur ces pages Twitter/X ou sur des comptes qui en parlent </p>
+
+		<img class="article_img" src="/resources/alheizeijarg.PNG" alt="image d'un article">
+		<img class="article_img" src="/resources/phobievr.png" alt="phobievr">
+		<blockquote class="twitter-tweet article_img" data-media-max-width="560"><p lang="en" dir="ltr">Intubated ICU patients using VR to take a short immersive vacation while getting some physical exercise in. Source: darlan nitz <a href="https://t.co/iX7zhtcTRM">pic.twitter.com/iX7zhtcTRM</a></p>&mdash; Oren Gottfried, MD (@OGdukeneurosurg) <a href="https://twitter.com/OGdukeneurosurg/status/1686753382818852864?ref_src=twsrc%5Etfw">August 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+	</div>
+
+	
+	
 </body>
 </html>
