@@ -1,0 +1,31 @@
+footer {
+	margin-top: 5em;
+	background-color: #1f2937;
+	color: #f3f4f6;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 10px 20vw 10px 20vw;
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+footer p {
+	font-size: 14px;
+}
+
+.footer-column {
+	flex: 1 1 200px;
+	margin: 10px;
+}
+
+footer a {
+	font-size: 14px;
+	color: #93c5fd;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #60a5fa;
+}

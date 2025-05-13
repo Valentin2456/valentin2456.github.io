@@ -8,6 +8,7 @@ body {
 	padding: 20px;
 
 }
+
 h1 {
 	margin: 1em 0;
 	color: #81B29A;
@@ -15,11 +16,13 @@ h1 {
 	margin-bottom: 30px;
 	font-size: 3em;
 }
-h2{
+
+h2 {
 	font-size: 2em;
 	font-weight: bold;
 }
-h3{
+
+h3 {
 	font-size: 1.5em;
 	color: #81B29A;
 	font-weight: bold;
@@ -28,12 +31,14 @@ h3{
 .highlight {
 	font-weight: bold;
 }
+
 .container {
 	display: flex;
 	justify-content: center;
 	max-width: 200em;
 	width: 100%;
 }
+
 .box {
 	background-color: #fff;
 	border-radius: 10px;
@@ -43,18 +48,20 @@ h3{
 	box-sizing: border-box;
 	text-align: left;
 }
+
 h2 {
 	color: #81B29A;
 	margin-bottom: 15px;
 }
+
 p {
 	margin-bottom: 15px;
 	line-height: 1.6;
 }
+
 section {
 	margin: 2em 0
 }
-
 
 @media (max-width: 768px) {
 	.box {

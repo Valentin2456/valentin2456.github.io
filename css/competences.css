@@ -1,0 +1,31 @@
+
+	body {
+		font-family: Arial, sans-serif;
+	}
+	.container {
+		background-color: #fff;
+		padding: 3em 8em 5em 8em;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		max-width: 800px;
+		margin: auto;
+	}
+	h1 {
+		color: #3498db;
+		text-align: center;
+		font-size: 2.5em;
+	}
+	p {
+		line-height: 1.6;
+		margin: 0.5em 1em;
+	}
+
+	.highlight {
+		font-weight: bold;
+	}
+	.text_img {
+		width: 20em;
+		margin: 1em auto;
+	}
+	.article_img {
+		width: 45em;
+	}
